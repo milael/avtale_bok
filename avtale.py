@@ -8,4 +8,3 @@ class Avtale:
         self.sted = sted
         self.starttidspunkt = starttidspunkt
         self.varighet = varighet
-   
