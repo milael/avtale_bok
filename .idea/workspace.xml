@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed52e6e-3d0b-47ce-ab50-0752b2f90c46" name="Changes" comment="nothing">
-      <change beforePath="$PROJECT_DIR$/appointment_file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/appointment_file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avtale.py" beforeDir="false" afterPath="$PROJECT_DIR$/avtale.py" afterDir="false" />
-    </list>
+    <list default="true" id="8ed52e6e-3d0b-47ce-ab50-0752b2f90c46" name="Changes" comment="nothing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +47,7 @@
       <workItem from="1667384020751" duration="8000" />
       <workItem from="1667384073974" duration="2349000" />
       <workItem from="1667387199307" duration="494000" />
-      <workItem from="1667392480360" duration="1068000" />
+      <workItem from="1667392480360" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="nothing">
       <created>1667384931982</created>
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667393238521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nothing">
+      <created>1667393612453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667393612453</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
