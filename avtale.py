@@ -23,7 +23,21 @@ class Avtale:
               f'Sted: {self.sted} Varighet: {self.varighet}')
 
 
+''' f) Lag en funksjon som lar brukeren skrive inn en ny avtale. 
+    Funksjonen skal bruke input-funksjonen til å lese inn egenskapene til avtalen 
+    og skal sjekke at det brukeren skriver er gyldig, for eksempel at varighet er et tall. 
+    Funksjonen skal returnere et avtale-objekt'''
 
+''' g) Lag en funksjon som skriver ut ei liste med avtaler til skjermen. 
+    Funksjonen skal minimum skrive ut indeksen til avtalen i lista og tittel til avtalen. 
+    Den kan alternativt skrive ut indeksen til avtalen 
+    og så hele avtalen som definert i __str__ metoden. 
+    Funksjonen skal ha en frivillig parameter «overskrift» 
+    som skal være en overskrift som funksjonen skriver ut før avtalene i lista. 
+    Funksjonen skal inkludere indeksen til hver avtale i utskriften. '''
+
+''' h) Lag en funksjon som lagrer ei liste med avtaler til ei tekstfil. 
+    Tenk over hva som vil være et fornuftig format for ei slik tekstfil.'''
 
 
 
