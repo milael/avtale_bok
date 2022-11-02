@@ -43,7 +43,7 @@ class Appointment:
     som skal være en overskrift som funksjonen skriver ut før avtalene i lista. 
     Funksjonen skal inkludere indeksen til hver avtale i utskriften. '''
 
-appointment_list = []
+appointment_list = [1, 2, 3, 4]
 
 
 def print_appointment():
@@ -51,18 +51,14 @@ def print_appointment():
         print(appointment_list[i])
 
 
-print_appointment()
-
 
 ''' Mehdi:
     h) Lag en funksjon som lagrer ei liste med avtaler til ei tekstfil. 
     Tenk over hva som vil være et fornuftig format for ei slik tekstfil.'''
 
+def save_appointment():
+    with open('appointment_file.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow(appointment_list)
 
-
-
-fields=['first','second','third']
-
-with open('appointment_file.csv', 'a') as f:
-    writer = csv.writer(f)
-    writer.writerow(fields)
+save_appointment()
