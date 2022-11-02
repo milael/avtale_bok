@@ -22,10 +22,11 @@ class Appointment:
         h) Lag en funksjon som lagrer ei liste med avtaler til ei tekstfil. 
         Tenk over hva som vil være et fornuftig format for ei slik tekstfil.'''
 
-    def save_appointment():
+
+    def save_appointment(self):
         with open('appointment_file.csv', 'a') as f:
-            writer = csv.writer(f)
-            writer.writerow(appointment_list)
+
+            csv.writer(f).writerow([self.titel, self.place, self.start_time, self.duration])
 
 
 
@@ -48,7 +49,7 @@ print(z)
     og skal sjekke at det brukeren skriver er gyldig, for eksempel at varighet er et tall. 
     Funksjonen skal returnere et avtale-objekt'''
 
-# CHANGE HERE
+
 
 
 ''' Mehdi: 
