@@ -13,7 +13,7 @@ class Avtale:
         print(f'Avtalen: {self.tittel} foregår kl. {self.starttidspunkt}'
               f'Sted: {self.sted} Varighet: {self.varighet}')
 
-
+# det er en test
 
 
 
