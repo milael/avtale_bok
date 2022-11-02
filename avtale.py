@@ -22,7 +22,7 @@ class Appointment:
         print(f'Avtalen: {self.titel} foregår kl. {self.start_time}'
               f'Sted: {self.place} Varighet: {self.duration}')
 
-
+''' hgfjhgfjhgfjug'''
 ''' f) Lag en funksjon som lar brukeren skrive inn en ny avtale. 
     Funksjonen skal bruke input-funksjonen til å lese inn egenskapene til avtalen 
     og skal sjekke at det brukeren skriver er gyldig, for eksempel at varighet er et tall. 
