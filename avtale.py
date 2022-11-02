@@ -22,10 +22,38 @@ class Appointment:
         print(f'Avtalen: {self.titel} foregår kl. {self.start_time}'
               f'Sted: {self.place} Varighet: {self.duration}')
 
+
 ''' f) Lag en funksjon som lar brukeren skrive inn en ny avtale. 
     Funksjonen skal bruke input-funksjonen til å lese inn egenskapene til avtalen 
     og skal sjekke at det brukeren skriver er gyldig, for eksempel at varighet er et tall. 
     Funksjonen skal returnere et avtale-objekt'''
+
+
+def ny_avtale(self):
+    titel = input("Sett inn tittel: ")
+    place = input("Sett inn sted: ")
+    print('Sett inn starttidspunkt til avtalen.')
+    start_time = 0
+    start_minutt = 0
+
+    while (0 <= start_time < 24) and (0 <= start_minutt < 60):
+        try:
+            start_time = int(input("Time: "))
+            start_minutt = int(input('Minutt: '))
+        except:
+            print("Ugylig Verdi")
+
+    starttidspunkt = datetime.datetime(start_time, start_minutt)
+    print('Sett inn varighet til avtalen.')
+    varighet_time = 0
+    varighet_minutt = 0
+    avtale = Appointment(titel, place, start_time, duration)
+    return avtale
+
+
+
+
+
 
 ''' g) Lag en funksjon som skriver ut ei liste med avtaler til skjermen. 
     Funksjonen skal minimum skrive ut indeksen til avtalen i lista og tittel til avtalen. 
