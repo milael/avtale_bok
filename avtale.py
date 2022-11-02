@@ -61,4 +61,5 @@ def save_appointment():
         writer = csv.writer(f)
         writer.writerow(appointment_list)
 
+
 save_appointment()
