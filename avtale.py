@@ -34,6 +34,9 @@ class Appointment:
     og skal sjekke at det brukeren skriver er gyldig, for eksempel at varighet er et tall. 
     Funksjonen skal returnere et avtale-objekt'''
 
+# CHANGE HERE
+
+
 ''' Mehdi: 
     g) Lag en funksjon som skriver ut ei liste med avtaler til skjermen. 
     Funksjonen skal minimum skrive ut indeksen til avtalen i lista og tittel til avtalen. 
