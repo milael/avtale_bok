@@ -10,12 +10,24 @@ import csv
         c. Et starttidspunkt (datetime objekt, se hint nederst)
         d. En varighet i minutter (int)'''
 
+
 class Appointment:
     def __init__(self, titel, place, start_time, duration):
         self.titel = titel
         self.place = place
         self.start_time = start_time
         self.duration = duration
+
+    ''' Mehdi:
+        h) Lag en funksjon som lagrer ei liste med avtaler til ei tekstfil. 
+        Tenk over hva som vil være et fornuftig format for ei slik tekstfil.'''
+
+    def save_appointment():
+        with open('appointment_file.csv', 'a') as f:
+            writer = csv.writer(f)
+            writer.writerow(appointment_list)
+
+
 
     ''' Milael:
         e) Lag en __str__ metode for avtaler som returnerer en streng 
@@ -27,7 +39,9 @@ class Appointment:
               f'Sted: {self.place} Varighet: {self.duration}')
 
 
-
+a = Appointment('a', 'b', 'c', 'd')
+z = [a.titel, a.place, a.start_time, a.duration]
+print(z)
 ''' Milael:
     f) Lag en funksjon som lar brukeren skrive inn en ny avtale. 
     Funksjonen skal bruke input-funksjonen til å lese inn egenskapene til avtalen 
@@ -55,14 +69,9 @@ def print_appointment():
 
 
 
-''' Mehdi:
-    h) Lag en funksjon som lagrer ei liste med avtaler til ei tekstfil. 
-    Tenk over hva som vil være et fornuftig format for ei slik tekstfil.'''
-
-def save_appointment():
-    with open('appointment_file.csv', 'a') as f:
-        writer = csv.writer(f)
-        writer.writerow(appointment_list)
 
 
-save_appointment()
+
+
+
+
